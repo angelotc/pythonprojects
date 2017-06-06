@@ -1,0 +1,28 @@
+
+
+
+
+HTTP
+
+* Client initiates connection to server
+* Server accepts connection
+* Client sends an "HTTP request"
+* Server responds with an "HTTP response"
+* Both sides close the their connections
+
+
+HTTP request
+--------------
+GET
+
+import urlib.request
+
+ response = urllib.request.urlopen('~~~~~')
+
+response
+response.status
+response.headers
+for header in response in responser.headers:
+	print(header)
+
+data =  response.read()
